@@ -1,0 +1,52 @@
+.signal text {
+    fill: red;
+}
+.signal text:hover {
+    fill: #aaaaaa
+}
+
+
+.actor rect{
+    fill: #7B3031;
+    border-radius: 0.5rem;
+}
+
+svg line{
+    stroke-width: 1.5 !important;
+    stroke: #707070;
+}
+
+.signal line{
+    stroke-width: 1.5 !important;
+}
+
+svg rect {
+    rx: 10; 
+    ry: 10; 
+    stroke-width: 0 !important;
+    
+  }
+
+.title rect, .title path{
+    fill: #ffffFf ;
+}
+
+.actor text{
+    fill: #FFF;
+}
+.hide{
+    display: none;
+}
+
+#scroll1 div {
+    height: 20px;
+    margin: 0 1%;
+}
+
+.modal-body {
+    overflow-x: auto;
+}
+
+.title{
+    display: none;
+}
